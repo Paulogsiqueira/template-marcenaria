@@ -3,24 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Madeira & Arte — marcenaria sob medida. Móveis planejados, cozinhas, painéis e peças artesanais feitas com madeira de qualidade." />
-  <title>Madeira &amp; Arte · Marcenaria Sob Medida</title>
+  <meta name="description" content="João Silva Móveis Planejados — marcenaria de alto padrão sob medida. Cozinhas, closets, painéis, banheiros e móveis planejados para apartamentos." />
+  <title>João Silva · Móveis Planejados</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Karla:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header" id="topo">
     <nav class="nav container">
-      <a href="#topo" class="brand"><span class="brand-mark">🪵</span> Madeira <span>&amp; Arte</span></a>
+      <a href="#topo" class="brand">
+        <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <rect class="lm-bg" width="48" height="48" rx="8" />
+          <text class="lm-txt" x="24" y="32" text-anchor="middle">JS</text>
+        </svg>
+        <span class="brand-text"><strong>João Silva</strong><small>Móveis Planejados</small></span>
+      </a>
       <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <ul class="nav-links">
         <li><a href="#servicos">Serviços</a></li>
         <li><a href="#historia">História</a></li>
         <li><a href="#processo">Processo</a></li>
         <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
         <li><a href="#contato" class="btn btn-primary">Orçamento</a></li>
       </ul>
     </nav>
@@ -29,11 +35,11 @@
   <main>
     <section class="hero">
       <div class="container hero-inner">
-        <p class="eyebrow">Marcenaria sob medida desde 1995</p>
-        <h1>Móveis feitos<br /><span>à mão, pra durar</span></h1>
-        <p class="lead">Cada peça nasce do encontro entre madeira de qualidade e o trabalho de quem ama o ofício. Sob medida para o seu espaço.</p>
+        <p class="eyebrow">Marcenaria de alto padrão · desde 1995</p>
+        <h1>Móveis planejados<br /><span>que valorizam o seu espaço</span></h1>
+        <p class="lead">Projetos sob medida que unem design contemporâneo, madeira de qualidade e o acabamento artesanal que faz toda a diferença.</p>
         <div class="hero-actions">
-          <a href="#contato" class="btn btn-primary">Pedir orçamento</a>
+          <a href="#contato" class="btn btn-primary">Solicitar orçamento</a>
           <a href="#projetos" class="btn btn-ghost">Ver projetos</a>
         </div>
       </div>
@@ -43,20 +49,56 @@
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">O que fazemos</p>
-          <h2>Marcenaria completa, sob medida</h2>
+          <h2>Soluções completas em marcenaria planejada</h2>
         </div>
         <div class="service-grid">
-          <article class="service"><span class="ico">🛋️</span><h3>Móveis Planejados</h3><p>Estantes, racks, escrivaninhas e peças únicas para cada ambiente.</p></article>
-          <article class="service"><span class="ico">🍽️</span><h3>Cozinhas &amp; Closets</h3><p>Planejamento inteligente que aproveita cada centímetro.</p></article>
-          <article class="service"><span class="ico">🚪</span><h3>Portas &amp; Painéis</h3><p>Painéis ripados, portas e revestimentos em madeira.</p></article>
-          <article class="service"><span class="ico">🪑</span><h3>Peças Artesanais</h3><p>Mesas, bancos e objetos com acabamento artesanal.</p></article>
-          <article class="service"><span class="ico">🔧</span><h3>Restauro</h3><p>Recuperação de móveis antigos com técnica e respeito à peça.</p></article>
-          <article class="service"><span class="ico">🏢</span><h3>Projetos Comerciais</h3><p>Balcões, expositores e mobiliário para lojas e escritórios.</p></article>
+          <article class="service">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="3" width="16" height="18" rx="1"/><line x1="12" y1="3" x2="12" y2="21"/><line x1="9.4" y1="11" x2="9.4" y2="13.5"/><line x1="14.6" y1="11" x2="14.6" y2="13.5"/></svg>
+            </span>
+            <h3>Móveis Planejados</h3>
+            <p>Estantes, racks, home offices e peças sob medida para cada ambiente.</p>
+          </article>
+          <article class="service">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="4" width="18" height="6" rx="1"/><rect x="3" y="13" width="18" height="7" rx="1"/><line x1="9" y1="4" x2="9" y2="10"/><line x1="15" y1="4" x2="15" y2="10"/><line x1="12" y1="13" x2="12" y2="20"/></svg>
+            </span>
+            <h3>Cozinhas &amp; Closets</h3>
+            <p>Planejamento inteligente que aproveita cada centímetro com elegância.</p>
+          </article>
+          <article class="service">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="3" width="16" height="18" rx="1"/><line x1="8" y1="3" x2="8" y2="21"/><line x1="12" y1="3" x2="12" y2="21"/><line x1="16" y1="3" x2="16" y2="21"/></svg>
+            </span>
+            <h3>Portas &amp; Painéis</h3>
+            <p>Painéis ripados, portas e revestimentos em madeira com assinatura própria.</p>
+          </article>
+          <article class="service">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 10h14"/><path d="M6 10V5h12v5"/><path d="M7 10v10M17 10v10"/><path d="M7 15h10"/></svg>
+            </span>
+            <h3>Peças Artesanais</h3>
+            <p>Mesas, aparadores e objetos com acabamento feito à mão.</p>
+          </article>
+          <article class="service">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20.5 12a8.5 8.5 0 1 1-2.6-6.1"/><path d="M20.5 4.5v4.5h-4.5"/></svg>
+            </span>
+            <h3>Restauro</h3>
+            <p>Recuperação de móveis com técnica apurada e respeito à peça original.</p>
+          </article>
+          <article class="service">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 9l1.6-5h14.8L21 9"/><path d="M4.5 9v11h15V9"/><path d="M9.5 20v-6h5v6"/></svg>
+            </span>
+            <h3>Projetos Comerciais</h3>
+            <p>Balcões, expositores e mobiliário para lojas, escritórios e clínicas.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="historia" class="about">
+    <section id="historia" class="story">
       <div class="container about-inner">
         <div class="about-media">
           <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=80" alt="Marceneiro trabalhando a madeira" loading="lazy" />
@@ -64,9 +106,9 @@
         <div class="about-text">
           <p class="eyebrow">Nossa história</p>
           <h2>Três gerações no cheiro de madeira</h2>
-          <p>A Madeira &amp; Arte começou em 1995, numa pequena oficina de fundo de quintal, com o Seu Antônio, suas ferramentas manuais e uma certeza: um móvel bem feito dura uma vida inteira. O que era um trabalho de um homem só foi crescendo no boca a boca de clientes que voltavam — e indicavam.</p>
-          <p>Com o tempo, os filhos aprenderam o ofício na bancada, ao lado do pai, unindo a técnica tradicional da marcenaria à precisão das máquinas modernas. Hoje somos um ateliê completo, mas mantemos o mesmo cuidado artesanal de sempre: cada peça é tratada como única, porque para quem a recebe, ela é.</p>
-          <p>São quase 30 anos transformando madeira em ambientes que contam histórias — e a sua pode ser a próxima.</p>
+          <p>A João Silva Móveis Planejados começou em 1995, numa pequena oficina de fundo de quintal, com ferramentas manuais e uma certeza: um móvel bem feito dura uma vida inteira. O que era o trabalho de um homem só foi crescendo no boca a boca de clientes que voltavam — e indicavam.</p>
+          <p>Com o tempo, a família aprendeu o ofício na bancada, unindo a técnica tradicional da marcenaria à precisão das máquinas modernas. Hoje somos um ateliê completo, com projeto 3D e acabamento de alto padrão, mas mantemos o mesmo cuidado artesanal de sempre.</p>
+          <p>São quase 30 anos transformando madeira em ambientes que valorizam cada casa — e a sua pode ser a próxima.</p>
           <ul class="about-highlights">
             <li><strong>Desde 1995</strong><span>quase 30 anos</span></li>
             <li><strong>+3.000</strong><span>projetos entregues</span></li>
@@ -80,14 +122,46 @@
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Como trabalhamos</p>
-          <h2>Do desenho à entrega</h2>
+          <h2>Do primeiro traço à entrega</h2>
+          <p class="section-sub">Um processo transparente, no seu tempo, com você acompanhando cada etapa.</p>
         </div>
-        <div class="process-grid">
-          <div class="step"><span class="step-num">01</span><h3>Conversa &amp; medição</h3><p>Entendemos a sua necessidade e medimos o espaço com precisão.</p></div>
-          <div class="step"><span class="step-num">02</span><h3>Projeto &amp; orçamento</h3><p>Apresentamos o desenho 3D e um orçamento transparente.</p></div>
-          <div class="step"><span class="step-num">03</span><h3>Produção artesanal</h3><p>Selecionamos a madeira e produzimos com cuidado em cada detalhe.</p></div>
-          <div class="step"><span class="step-num">04</span><h3>Instalação</h3><p>Entregamos e instalamos com acabamento impecável.</p></div>
-        </div>
+        <ol class="timeline">
+          <li class="tl-item">
+            <span class="tl-node">01</span>
+            <div class="tl-content">
+              <h3>Conversa &amp; medição</h3>
+              <p>Entendemos a sua necessidade, o seu estilo e medimos o espaço com precisão milimétrica.</p>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-node">02</span>
+            <div class="tl-content">
+              <h3>Projeto 3D &amp; orçamento</h3>
+              <p>Você visualiza o ambiente em 3D antes de produzir e recebe um orçamento claro, sem surpresas.</p>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-node">03</span>
+            <div class="tl-content">
+              <h3>Seleção da madeira</h3>
+              <p>Escolhemos juntos os materiais, lâminas e ferragens — só trabalhamos com fornecedores de confiança.</p>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-node">04</span>
+            <div class="tl-content">
+              <h3>Produção artesanal</h3>
+              <p>Cada peça é produzida no nosso ateliê com atenção obsessiva ao acabamento e aos detalhes.</p>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-node">05</span>
+            <div class="tl-content">
+              <h3>Entrega &amp; instalação</h3>
+              <p>Levamos e instalamos no prazo combinado, deixando tudo pronto e impecável para você usar.</p>
+            </div>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -128,7 +202,9 @@
             <select>
               <option>Móveis planejados</option>
               <option>Cozinha / Closet</option>
-              <option>Portas e painéis</option>
+              <option>Painel de TV</option>
+              <option>Banheiro / Gabinete</option>
+              <option>Apartamento completo</option>
               <option>Restauro</option>
               <option>Comercial</option>
             </select>
@@ -143,9 +219,15 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span class="brand"><span class="brand-mark">🪵</span> Madeira &amp; Arte</span>
+      <a href="#topo" class="brand">
+        <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <rect class="lm-bg" width="48" height="48" rx="8" />
+          <text class="lm-txt" x="24" y="32" text-anchor="middle">JS</text>
+        </svg>
+        <span class="brand-text"><strong>João Silva</strong><small>Móveis Planejados</small></span>
+      </a>
       <p>Estrada da Serraria, 240 — Distrito · (11) 4000-0000</p>
-      <p class="muted">© <span id="year"></span> Madeira &amp; Arte · Template de demonstração.</p>
+      <p class="muted">© <span id="year"></span> João Silva Móveis Planejados · Template de demonstração.</p>
     </div>
   </footer>
 
